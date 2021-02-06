@@ -28,7 +28,9 @@ The plugin also marks an order that **can** be modified by the user into the Woo
 icon beside the order status.
 
 ## Next development steps
+
 These points need further analysis or simply need to be done into the refactoring process of this plugin:
+
 - I would like the administrator to customize also the time window duration and the status of the order that can be
   modified: I need to refactor all the parts where the remaining time is displayed, while for the status I think that I
   will use a select field, so that it will be configured only one status, but I would love to have feedbacks about it;
@@ -36,4 +38,7 @@ These points need further analysis or simply need to be done into the refactorin
   WooCommerce menu;
 - I would like to manage better the "modify conditions" provided by the administrator, displaying them not only in the
   cart but also in the WooCommerce banners, where now I have a fixed text;
-- I would display in the WooCommerce orders dashboard also if an order is actively being modified. 
+- I would display in the WooCommerce orders dashboard also if an order is actively being modified;
+- I have to check a particular case of applying a coupon while editing an order: the calculations are right, but I think
+  that the user interface is not quite right, because the coupon amount in the cart is both presented into the coupon
+  row and subtracted in the "Credit" row.
