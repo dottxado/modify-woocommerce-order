@@ -1,0 +1,23 @@
+{
+  "name": "dottxado/modify-woocommerce-order",
+  "description": "Enable the users to modify an already placed and paid order",
+  "minimum-stability": "dev",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Erika Gili",
+      "email": "ing.erika.gili@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dottxado\\ModifyWooOrder\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
