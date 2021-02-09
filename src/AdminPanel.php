@@ -11,7 +11,7 @@ class AdminPanel {
 
 	const OPTION_NAME = 'dottxado-modify-woo-order';
 
-	const STATUS = 'process';
+	const STATUS = 'processing';
 
 	const TIME_TO_EDIT = 900;
 
